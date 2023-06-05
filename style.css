@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: 0;
+}
+.awesome-modal-open-btn {
+  padding: 10px;
+  background: var(--awesome-modal-close-background);
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
